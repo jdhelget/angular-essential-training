@@ -8,6 +8,7 @@ import { FavoriteDirective } from './favorite.directive';
 import { CategoryListPipe } from './category-list.pipe';
 import { MediaItemFormComponent } from './media-item-form.component';
 import { lookupListToken, lookupLists } from './providers';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   imports: [
